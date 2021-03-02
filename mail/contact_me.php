@@ -1,8 +1,15 @@
 <?php
 // Check for empty fields
 if(empty($_POST['name'])      ||
+   empty($_POST['name'])     ||
    empty($_POST['email'])     ||
-   empty($_POST['phone'])     ||
+   empty($_POST['phone'])   ||
+   empty($_POST['time'])   ||
+   empty($_POST['date'])   ||
+   empty($_POST['name'])   ||
+   empty($_POST['exampleRadios1'])   ||
+   empty($_POST['exampleRadios2'])   ||
+   empty($_POST['exampleRadios3'])   ||
    empty($_POST['message'])   ||
    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
    {
@@ -11,8 +18,15 @@ if(empty($_POST['name'])      ||
    }
    
 $name = strip_tags(htmlspecialchars($_POST['name']));
+$name = strip_tags(htmlspecialchars($_POST['name']));
 $email_address = strip_tags(htmlspecialchars($_POST['email']));
 $phone = strip_tags(htmlspecialchars($_POST['phone']));
+$time = strip_tags(htmlspecialchars($_POST['time']));
+$date = strip_tags(htmlspecialchars($_POST['date']));
+$name = strip_tags(htmlspecialchars($_POST['name']));
+$exampleRadios1 = strip_tags(htmlspecialchars($_POST['exampleRadios1']));
+$exampleRadios2 = strip_tags(htmlspecialchars($_POST['exampleRadios2']));
+$exampleRadios3 = strip_tags(htmlspecialchars($_POST['exampleRadios3']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
    
 // Create the email and send the message
