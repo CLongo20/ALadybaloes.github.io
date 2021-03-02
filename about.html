@@ -78,26 +78,43 @@
   </nav>
 
    <header>
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-          <img src="img/cinderela2.jpg" class="d-block w-100" alt="...">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('https://lh3.googleusercontent.com/AevQF2mnYyBmlvNd1AwX9gWAJClJgbf-12nZlvCIIvm4z4Hx1_CHmbw7vzLtZdtpKoEJTc7eUG61o7B-EUXGFZygFU4K6oYpSBddUbnSzP3v30-1do3aQdgs0ZWKlbC2X3QzYIYWPQkaSaFIp70NZuDqmN1peUB3ZGX9zk46wbqOr5CSXguRMBMqqHhXoU9lxluEDDBgqq0yCpu-XhqXzNwLh_FHS3g_2ivDIlm6zgCi767rHRfhkKCxFaNfmB_6rBAPVsEHfARBZxrxboSki0pdlQlfF8VKI2MvS128-uts3IhPbll2rGzfyjYKsldZX0dSX3QbjYYXS6pZrcH3SWvgLRGgutRfZybZIsNSPGvOwzKn0XlpluW8wQblF0fQkK6-vbffr1gQzk-YnkSrhC_sD-3AhTTDg3t9jwWceYPCOywNE_LrXA5vX4MQMQrWw4Crs3nx0O-r0fXyDS11H_bC4s-BRSzkjGG-04eJk14_N-Bukl-OAYGPrwXHWriNQQ1Su8fF6Z2klX2toMWs1QjfHfFW-pmXKCKLj4Wzs2HfFIQvfAKTqK-aQH7LvmO9TP7VARrOI2SqWSLNS0zfPSwCRrP1nH0663yEdAIZLrr44h5_nQFg206bIg0mx6eavGnXWLjjo55zanO1SmGpXeeDYOItq-wCayHa2-_yLLLMshROroqKCRb7yb8JAFM=s265-no?authuser=0')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>First Slide</h3>
+            <p>This is a description for the first slide.</p>
+          </div>
         </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img src="..." class="d-block w-100" alt="...">
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('https://lh3.googleusercontent.com/EcLNHjHGSQ3xnEuqBHaPwE_W9QW9u-t6tSzWirok2yXviaKtqJwcZo2J5iKWeWW2tztjI5ET6J1VxtCPdSqZVb7wFrVU79ZEZAATvehE_FE6FwCfpea8IwpCNMY3wXaBQ-vBWzhEWlmgIKqa3h7W8lOT7dqnRLH3V0pC714-o8yq9-UpjbMF2n2InV1N8Iz82WIoRPbdq9RzeGg4Xvhpa2G3kltCsI9EElpOxjGtQ-xenX05EAZfAHiLNoEMo0PbWj3YuFId7uGQsXOMfu3zcCqG742BvQVZKEbpsmYAXDkDLPuDCfy3txnHssE634yzvSpoom1B34QOceAkca1Tb05EGKXq00TV5jlSzyKsGeAFhhTsKQbRUem_5TSn14UliKy6VJ4xO3UxJXYwNSD7e98aoKg2bjZR5rZ3cKdRGyrduOR5Hr75R5V0ltAkTqS4DB8UYlW6YtF3PrYI8CoIza71-wm_qwEXJyaWE_6aEwTCWPOlzD4tgSjSxL_n4MPXm2nz5pFjJ3uhRcnl_-kZ_nrOy4yX8jDInVW9SXpSVKpmwV8sLfWZnK-kSGu1FBQ8yboNEaD69zb5Z30pYe3-sRmImFJ2Yw5ahV_axujmU5S8cZeCgxm6cHXcw2otJ3yMc_a5t73uEgKiMhAy-4omj_-p5IRNuazhPsm7WrGXj59GpVUV_MZsWzbRPrQl51w=w727-h969-no?authuser=0')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Second Slide</h3>
+            <p>This is a description for the second slide.</p>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('https://lh3.googleusercontent.com/X5bYQPtSTRIA3mr6HBSHXYuAzdMOk9mzBARKLt35ohsSM_idGmDmvGtAY70Q8n5ApuoyiCzdqNa_nXuHGbiipprfeieLwM3UOcSz_fQOInPfmMUklVMeAky5runD0Jlt6c0JKfJ8xVGeRpvFAo18FH-liyuh3AtbMuqCIVUwSdzJQ33CEeRGOdhUzFzlgMHuJAQ9EpavNZxw_HK-3jte5KaFk7kWBibdVDvt8jPQ7DhvzEMl01WoPiT-whGdpweeY5ScgqxUe1EgyAOYiYJGR7rQB0akSPBQwzlGljjQd8L_sz4oQ10kA_y1J0yEKYiyjW3vKqOfO4JSNnuNqbWUZl85su-XJHNtC2mqhakifu-TlYSmiM9BkPKrjfliv-K1L7GCTnr1Qgnrbir47MkzvPWAoE4QoRs2O8W_QtAadLe4fm0aPtAuhrgt3rU0gVa4NGb_0IEW3K9ziOMp2ltg1XYnoc20N7yoRPFLidCANV0JRTPAWdROvtDJ_UiDc3I6l5h0Ikb7c-45w-bNJcbnWw40dnJSwHsUF6XOrIPWzFLDnrfhM1Q1h67yUINWSXT_q28t1XFKR6Lu0zj9XVRlBPsLFlOgNabchZmv_DPGiIUOCN-kpJp7YPlxYkuqbUhmJbd1U7ArfgsxO1guTO7hvspgb4Cjpvc-QfbnHh1WnJF20-PZky-B5L1aAkZ9q2c=w374-h211-no?authuser=0')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Third Slide</h3>
+            <p>This is a description for the third slide.</p>
+          </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"  data-bs-slide="prev">
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"  data-bs-slide="next">
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
   </header>
 
